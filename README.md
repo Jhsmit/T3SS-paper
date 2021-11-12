@@ -1,11 +1,11 @@
 # T3SS-paper
 
-Code for processing of live-cell microscopy data in Yuan 2021 type III paper: 
+**Code for processing of live-cell microscopy data in Yuan 2021 type III paper**: 
 Yuan, B.; Portaliou, A. G.; Parakra, R.; Smit, J. H.; Wald, J.; Li, Y.; Srinivasu, B.; Loos, M. S.; Dhupar, H. 
 S.; Fahrenkamp, D.; Kalodimos, C. G.; Duong van Hoa, F.; Cordes, T.; Karamanou, S.; Marlovits, T. C.; Economou, A. 
-Structural Dynamics of the Functional Nonameric Type III Translocase Export Gate. 
-Journal of Molecular Biology 2021, 433 (21), 167188.
 [Structural Dynamics of the Functional Nonameric Type III Translocase Export Gate. ](https://doi.org/10.1016/j.jmb.2021.167188)
+Journal of Molecular Biology 2021, 433 (21), 167188.
+
 
 
 Data is available on Zenodo: https://doi.org/10.5281/zenodo.5680700
