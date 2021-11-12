@@ -1,5 +1,10 @@
 # T3SS-paper
 
+
+[![DOI](https://zenodo.org/badge/427034742.svg)](https://zenodo.org/badge/latestdoi/427034742)
+
+
+
 **Code for processing of live-cell microscopy data in Yuan 2021 type III paper**: 
 Yuan, B.; Portaliou, A. G.; Parakra, R.; Smit, J. H.; Wald, J.; Li, Y.; Srinivasu, B.; Loos, M. S.; Dhupar, H. 
 S.; Fahrenkamp, D.; Kalodimos, C. G.; Duong van Hoa, F.; Cordes, T.; Karamanou, S.; Marlovits, T. C.; Economou, A. 
