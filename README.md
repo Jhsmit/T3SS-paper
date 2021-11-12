@@ -1,20 +1,19 @@
 # T3SS-paper
 
+Code for processing of live-cell microscopy data in Yuan 2021 type III paper: 
+Yuan, B.; Portaliou, A. G.; Parakra, R.; Smit, J. H.; Wald, J.; Li, Y.; Srinivasu, B.; Loos, M. S.; Dhupar, H. 
+S.; Fahrenkamp, D.; Kalodimos, C. G.; Duong van Hoa, F.; Cordes, T.; Karamanou, S.; Marlovits, T. C.; Economou, A. 
+Structural Dynamics of the Functional Nonameric Type III Translocase Export Gate. 
+Journal of Molecular Biology 2021, 433 (21), 167188.
 [Structural Dynamics of the Functional Nonameric Type III Translocase Export Gate. ](https://doi.org/10.1016/j.jmb.2021.167188)
 
 
-Code for processing of live-cell microscopy data in Yuan 2021 type III paper.
 Data is available on Zenodo: https://doi.org/10.5281/zenodo.5680700
 
 The final dataset contains 14209 c41 cells and 10770 EPEC cells. This is a result of segmentation and 
 filtering individual cells starting from 38GB of raw data.
 
-The code in this repository reproduces supplementary figures S2 D,E from:
-
-Yuan, B.; Portaliou, A. G.; Parakra, R.; Smit, J. H.; Wald, J.; Li, Y.; Srinivasu, B.; Loos, M. S.; Dhupar, H. 
-S.; Fahrenkamp, D.; Kalodimos, C. G.; Duong van Hoa, F.; Cordes, T.; Karamanou, S.; Marlovits, T. C.; Economou, A. 
-Structural Dynamics of the Functional Nonameric Type III Translocase Export Gate. 
-Journal of Molecular Biology 2021, 433 (21), 167188. [DOI](https://doi.org/10.1016/j.jmb.2021.167188)
+The code in this repository reproduces supplementary figures S2 D,E.
 
 This is a copy from my working directory and isn't the cleanest and probably will not directly run out of the box. Some 
 paths need to be adjusted, neural network weights are missing, probably some code cells are redundant/erroneous. Please drop me an
