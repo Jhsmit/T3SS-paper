@@ -1,8 +1,10 @@
 # T3SS-paper
-![image](figures/EPEC_aligned_viridis_cropped.png)
-*Aggregated image with localizations of 16396 T3SS foci in 10770 EPEC cells*
+
+[Structural Dynamics of the Functional Nonameric Type III Translocase Export Gate. ](https://doi.org/10.1016/j.jmb.2021.167188)
+
 
 Code for processing of live-cell microscopy data in Yuan 2021 type III paper.
+Data is available on Zenodo: https://doi.org/10.5281/zenodo.5680700
 
 The final dataset contains 14209 c41 cells and 10770 EPEC cells. This is a result of segmentation and 
 filtering individual cells starting from 38GB of raw data.
@@ -18,7 +20,13 @@ This is a copy from my working directory and isn't the cleanest and probably wil
 paths need to be adjusted, neural network weights are missing, probably some code cells are redundant/erroneous. Please drop me an
 email/DM if you have any questions!
 
-### Outline
+To recreate the conda environment used (on Windows 10):
+
+```console
+$ conda env create -f environment.yml
+```
+
+### Contents
 
 In the `src_data` directory are jupyter notebooks which take the raw data and apply (pre)processing. To run, 
 the `data_dir` input directory should be set to the correct raw data input directory (Extract zip from Zenodo) 
@@ -40,3 +48,6 @@ peaks, optimize cells coordinate system and produce final output graphs.
 
 On Zenodo, the colicoords cell objects of the final step are included ('data/brightfield_opt folder). Other
 intermediate steps can be reproduced by following the pipeline starting from the raw data.
+
+![image](figures/EPEC_aligned_viridis_cropped.png)
+*Aggregated image with localizations of 16396 T3SS foci in 10770 EPEC cells*
