@@ -50,7 +50,7 @@ is also repeated later
 In the `src` directory are 5 more jupyter notebooks which aggregate all the data, repeat peak finding, filter
 peaks, optimize cells coordinate system and produce final output graphs.
 
-On Zenodo, the colicoords cell objects of the final step are included ('data/brightfield_opt folder). Other
+On Zenodo, the colicoords cell objects of the final step are included ('data/brightfield_opt' folder). Other
 intermediate steps can be reproduced by following the pipeline starting from the raw data.
 
 ![image](figures/EPEC_aligned_viridis_cropped.png)
